@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="425dp"
+        android:layout_height="350dp"
+        android:layout_above="@+id/imageButton7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="185dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="132dp"
+        android:onClick="click2"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/courses" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="185dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageButton7"
+        android:onClick="click3"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/entrance" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="185dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/imageButton7"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageButton7"
+        android:cropToPadding="false"
+        android:onClick="click4"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/institute" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="185dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:onClick="click5"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/scholarship" />
+
+</RelativeLayout>
